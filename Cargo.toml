@@ -1,0 +1,4 @@
+[workspace]
+members = [
+    "src/ws_ic_cdk_timer_backend",
+]
