@@ -1,18 +1,9 @@
 {
   "canisters": {
-    "ws_ic_cdk_timer_backend": {
-      "candid": "src/ws_ic_cdk_timer_backend/ws_ic_cdk_timer_backend.did",
-      "package": "ws_ic_cdk_timer_backend",
+    "backend": {
+      "candid": "src/backend/interface.did",
+      "package": "backend",
       "type": "rust"
-    },
-    "ws_ic_cdk_timer_frontend": {
-      "dependencies": [
-        "ws_ic_cdk_timer_backend"
-      ],
-      "source": [
-        "src/ws_ic_cdk_timer_frontend/assets"
-      ],
-      "type": "assets"
     }
   },
   "defaults": {
